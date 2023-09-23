@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"> -->
+    
+</head>
+<body class="sbody">
+    <div class="signup-page " >      
+        <div class="signup">
+            <h1>Login</h1>
+        </div>
+        <div class="input-field">
+            <fieldset class="email-field">
+                <legend class="email-legend">Enter Email</legend>
+                <input class="sinput" required  type="email" name="" id="signin-email">
+            </fieldset>
+            <span id="le-required" ></span>
+            <span id="le-valid" ></span>
+            <fieldset class="pass-field">
+                <legend class="pass-legend">Enter Password</legend>
+                <input   class="sinput" required  type="password" name="" id="signin-password">
+            </fieldset>
+            <span id="lp-required" ></span>
+            <div class="show-pass" >
+            <label class="showpassword">Show Password</label>
+            <input onclick="showpass()" type="checkbox" name="" id="lp-check">
+        </div>
+        </div>
+        <div class="btn">
+            <button onclick="login()">Login</button>
+        </div>
+        <div class="already">
+            <p>Not a member?</p>
+            <a href="./signup.html">Signup Here</a>
+        </div>
+    </div>
+   
+
+    <script src="app.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

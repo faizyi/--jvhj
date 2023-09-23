@@ -1,0 +1,348 @@
+
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+body{
+    background-color:black !important;
+    width: 100% !important;
+    height: 100vh !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#se-required{
+    color:red ;
+    position: relative;
+    left: 9px;
+}
+#sp-required{
+    color:red ;
+
+    position: relative;
+    left: 9px;
+}
+#se-valid{
+    color: red;
+    position: relative;
+    left: 9px;
+}
+#lp-required{
+    color:red ;
+    position: relative;
+    left: 9px;
+}
+#le-required{
+    color:red ;
+    position: relative;
+    left: 9px;
+}
+#le-valid{
+    color: red;
+    position: relative;
+    left: 9px;
+}
+
+.signup{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    
+}
+h1{
+    /* text-shadow: 0px 0px 20px rgb(6, 242, 187); */
+    color: white;
+
+}
+.signup-page{
+    width: 350px;
+    height: 450px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgb(6, 242, 187);
+}
+
+.input-field{
+    margin-top: 80px;
+    margin-left: px;
+}
+.sinput{
+    width: 300px;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.email-field{
+    margin-top: 10px;
+    width: 310px;
+    margin-left: 10px;
+}
+.pass-field{
+    margin-top: 10px;
+    width: 310px;
+    margin-left: 10px;
+
+}
+.email-legend{
+    font-size: 20px;
+    margin-left: 10px;
+    color:rgb(6, 242, 187) ;
+    font-weight: bold;
+}
+.pass-legend{
+    font-size: 20px;
+    margin-left: 10px;
+    color:rgb(6, 242, 187) ;
+    font-weight: bold;
+}
+
+
+.btn{
+    margin-top: 10px;
+    margin-left: 15px;
+    border: none !important;
+    
+}
+button{
+    width: 305px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+    border-radius: 50px !important;
+    color: black;
+    box-shadow: 0px 0px 10px rgb(6, 242, 187);
+
+
+}
+button:active{
+        background-color: rgb(6, 242, 187) ;
+
+
+}
+.already{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+a{
+    color: rgb(6, 242, 187) !important;
+    text-decoration: none !important;
+    font-size: 18px;
+}
+p{
+    font-size: 18px;
+}
+a:hover{
+    text-decoration: underline !important;
+}
+.show-pass{
+    margin-left: 9px;
+}
+
+.showpassword{
+    color:rgb(6, 242, 187) ;
+}
+#lp-check{
+    width: 10px;
+    position: relative;
+    top: 2px;
+}
+#sp-check{
+    width: 10px;
+    position: relative;
+    top: 2px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 388px){
+    *{
+        margin: 0px;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: black;
+        color: white;
+    }
+    body{
+        background-color:black !important;
+        width: 100% !important;
+        height: 100vh !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #se-required{
+        color:red ;
+        position: relative;
+        left: 4px;
+    }
+    #sp-required{
+        color:red ;
+    
+        position: relative;
+        left: 4px;
+    }
+    #se-valid{
+        color: red;
+        position: relative;
+        left: 4px;
+    }
+    #lp-required{
+        color:red ;
+        position: relative;
+        left: 4px;
+        /* font-size: 10px; */
+    }
+    #le-required{
+        color:red ;
+        position: relative;
+        left: 9px;
+    }
+    #le-valid{
+        color: red;
+        position: relative;
+        left: 4px;
+    }
+    .signup{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 30px;
+        
+    }
+    h1{
+        text-shadow: 0px 0px 20px rgb(6, 242, 187);
+    
+    }
+    
+    .signup-page{
+        width: 250px;
+        height: 350px;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0px 0px 20px rgb(6, 242, 187);
+    }
+    .input-field{
+        margin-top: 50px;
+        /* margin-right: 50px; */
+    }
+    .sinput{
+        width: 220px;
+        padding: 5px;
+        border: none;
+        outline: none;
+    
+    }
+    .email-field{
+        margin-top: 10px;
+        width: 5px;
+        position: relative;
+        right: 7px;
+    }
+    .pass-field{
+        margin-top: 10px;
+        width: 5px;
+        position: relative;
+        right: 7px;
+    
+    }
+    .email-legend{
+        font-size: 15px;
+        margin-left: 10px;
+        color:rgb(6, 242, 187) ;
+        font-weight: bold;
+    }
+    .pass-legend{
+        font-size: 15px;
+        margin-left: 10px;
+        color:rgb(6, 242, 187) ;
+        font-weight: bold;
+    }
+    
+   
+    
+    .btn{
+        margin-top: 5px;
+        position: relative;
+        right: 10px;
+
+    }
+   
+    button{
+        width: 220px;
+        padding: 10px;
+        border: none;
+        font-size: 15px;
+        outline: none;
+        border-radius: 50px !important;
+        color: black;
+        box-shadow: 0px 0px 10px rgb(6, 242, 187);
+    
+    }
+    button:active{
+        background-color: rgb(6, 242, 187) ;
+
+
+}
+    .already{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    p{
+        font-size: 13px;
+    }
+    a{
+        color: rgb(6, 242, 187) !important;
+        font-size: 13px;
+        text-decoration: none !important;
+    }
+    a:hover{
+        text-decoration: underline !important;
+    }
+    .showpassword{
+        color:rgb(6, 242, 187) ;
+        font-size: 15px;
+    }
+    .show-pass{
+        position: relative;
+        right: 7px;
+    }
+    #lp-check{
+        width: 10px;
+        position: relative;
+        top: 2px;
+    }
+    #sp-check{
+        width: 10px;
+        position: relative;
+        top: 2px;
+
+    }
+    
+    
+}
